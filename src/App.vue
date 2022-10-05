@@ -1,17 +1,40 @@
 <template>
   <div id="app">
+    <HeaderComponent />
+    <FormComponent />
+    <ServiceComponent />
+    <ReviewsComponent />
+    <GymComponent />
+    <TrainersComponent />
+    <NewsComponent />
+    <FooterComponent />
     
   </div>
 </template>
 
 <script>
+import HeaderComponent from './components/HeaderComponent.vue';
+import FormComponent from './components/FormComponent.vue';
+import ServiceComponent from './components/ServiceComponent.vue';
+import ReviewsComponent from './components/ReviewsComponent.vue';
+import GymComponent from './components/GymComponent.vue';
+import TrainersComponent from './components/TrainersComponent.vue';
+import NewsComponent from './components/NewsComponent.vue';
+import FooterComponent from './components/FooterComponent.vue';
 
 
 export default {
   name: 'App',
   components: {
-  
-  }
+    HeaderComponent,
+    FormComponent,
+    ServiceComponent,
+    ReviewsComponent,
+    GymComponent,
+    TrainersComponent,
+    NewsComponent,
+    FooterComponent
+}
 }
 </script>
 
