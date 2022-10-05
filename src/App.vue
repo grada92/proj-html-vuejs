@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <HeaderComponent />
+    <HeaderComponent  :navbartext="navbar" />
     <FormComponent />
     <ServiceComponent />
     <ReviewsComponent />
@@ -34,17 +34,57 @@ export default {
     TrainersComponent,
     NewsComponent,
     FooterComponent
+},
+data () {
+  return {
+    navbar : [
+      {
+        text: 'HOME',
+        position: 1
+
+      },
+
+      {
+        text: 'ABOUT US',
+        position: 2
+      },
+
+      {
+        text: 'FACILITIES',
+        position: 3
+      },
+
+      {
+        text: 'MEMBERSHIP',
+        position: 4
+      },
+
+      {
+        text: 'TESTIMONIALS',
+        position: 5
+      },
+
+      {
+        text: 'BLOG',
+        position: 6
+      }
+    ]
+  }
 }
 }
 </script>
 
 <style lang="scss">
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
