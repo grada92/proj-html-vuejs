@@ -1,13 +1,13 @@
 <template>
-  <div class="box-service px-4 container-fluid">
-    <div class="d-flex box-card mx-5 px-5 row justify-content-center">
-      <div class="d-flex card-service mx-5 px-5">
+  <div class="box-service container-fluid">
+    <div class="d-flex box-card row justify-content-center mx-5 gx-3">
+      <div class="d-flex card-service mx-5">
 
 
         <!---CARD 1-->
         <div class="d-flex align-items-center  card bg-transparent text-center">
           <i id="border" class="fs-4 text-danger fa-solid fa-link"></i> <!--ADD ICON--->
-          <h5>Strength & Conditioning</h5>
+          <h5 class="fs-6">Strength & Conditioning</h5>
 
           <img src="@/assets/images/divider-x-red.png" alt="">
 
@@ -20,7 +20,7 @@
         <!---CARD 2-->
         <div class="card align-items-center bg-transparent text-center">
           <i id="border" class="fs-4 text-danger fa-solid fa-bicycle"></i><!--ADD ICON--->
-          <h5>Fitness & Cardio</h5>
+          <h5 class="fs-6">Fitness & Cardio</h5>
 
           <img src="@/assets/images/divider-x-red.png" alt="">
 
@@ -32,7 +32,7 @@
         <!---CARD 3-->
         <div class="card align-items-center bg-transparent text-center">
           <i id="border" class="fs-4 text-danger fa-solid fa-cloud"></i><!--ADD ICON--->
-          <h5>Flexibility & Rest</h5>
+          <h5 class="fs-6">Flexibility & Rest</h5>
 
           <img src="@/assets/images/divider-x-red.png" alt="">
 
@@ -44,7 +44,7 @@
         <!---CARD 4-->
       <div class="card  align-items-center bg-transparent text-center">
         <i id="border" class="fs-4 text-danger fa-solid fa-heart-pulse"></i><!--ADD ICON--->
-        <h5>Health & Diet</h5>
+        <h5 class="fs-6">Health & Diet</h5>
 
         <img src="@/assets/images/divider-x-red.png" alt="">
         
@@ -75,6 +75,7 @@ name: 'ServiceComponent'
   background-image: url(@/assets/images/gym_bkgd_bw-compressor.jpg);
   background-size: contain;
   max-width: 100%;
+  padding: 80px 100px;
 }
 .card {
   color:white;
@@ -82,6 +83,7 @@ name: 'ServiceComponent'
   gap:20px;
   padding: 15px;
   color: none;
+  margin: 0px 20px;
 }
 
 p {
