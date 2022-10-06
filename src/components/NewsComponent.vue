@@ -1,28 +1,133 @@
 <template>
   <div class="box-news py-5">
-
-    <div class="container-md py-5">
+    
+    <div class="container-md py-5 card-area">
       
       <div class="text-center text-white py-5">
-          <h2>PERFORMANCE NEWS</h2>
-          <img src="@/assets/images/divider-xx-red.png" alt="">
-        <div class="row">
+          <h2>PERFORMANCE NEWS</h2> <!--Title--->
+          <img src="@/assets/images/divider-xx-red.png" class="pt-3 pb-4" alt="xx-red">
+        <div class="row py-5 pt-5">
+          <!---Card 1-->
+          <div class="col-4">
+            <div class="card news-1">
 
-          <div class="col-12">
+              <img src="@/assets/images/blog1.jpg" alt="blog1">
+            
+              <div class="text-area text-start"> <!--Text-Area--->
 
+                <h4>Train with free weights or your body weight?</h4>
+              
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste nulla nobis dolorum asperiores commodi placeat sequi aliquam. Eos illo dolore rem sapiente ab. [...]</p>
+              
+              </div>
 
+            
+            </div>
+
+          </div>
+          <!---Card 2-->
+          <div class="col-4">
+            <div class="card news-2">
+
+              <img src="@/assets/images/blog6.jpg" alt="blog6">
+
+              <div class="text-area text-start"> <!--Text-Area--->
+
+                <h4>Nutrional advice that will keep you training</h4>
+                
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste nulla nobis dolorum asperiores commodi placeat sequi aliquam. Eos illo dolore rem sapiente ab. [...]</p>
+              
+              </div>
+            </div>
+          </div>
+          <!---Card 3-->
+          <div class="col-4">
+            <div class="card ">
+
+              <img src="@/assets/images/trainer4.jpg" alt="trainer4">
+
+              <div class="text-area text-start"> <!--Text-Area--->
+
+                <h4>Simple principles for you next workout</h4>
+                
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste nulla nobis dolorum asperiores commodi placeat sequi aliquam. Eos illo dolore rem sapiente ab. [...]</p>
+
+            
+              </div>
+            </div>
+
+    
+          </div>
+
+        </div>
+
+        <div class="row py-5">
+          <!---Card 4---->
+          <div class="col-4">
+            <div class="card news-4">
+
+              <img src="@/assets/images/blog4.jpg" alt="blog4">
+            
+              <div class="text-area text-start"> <!--Text-Area--->
+
+                <h4>To be number one , train like you're number two</h4>
+              
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste nulla nobis dolorum asperiores commodi placeat sequi aliquam. Eos illo dolore rem sapiente ab. [...]</p>
+               
+              </div>
+
+            
+            </div>
+
+          </div>
+          <!---Card 5----->
+          <div class="col-4">
+            <div class="card news-5">
+
+              <img src="@/assets/images/trainer3.jpg" alt="trainer3">
+
+              <div class="text-area text-start"> <!--Text-Area--->
+
+                <h4>Top 5 mistakes every gym member makes</h4>
+                
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste nulla nobis dolorum asperiores commodi placeat sequi aliquam. Eos illo dolore rem sapiente ab. [...]</p>
+              
+
+              
+
+              </div>
+            </div>
+
+                
+
+          </div>
+          <!---Card 6---->
+          <div class="col-4">
+            <div class="card news-6">
+
+              <img src="@/assets/images/trainer1.jpg" alt="trainer1">
+
+              <div class="text-area text-start"> <!--Text-Area--->
+
+                <h4>The myths of shedding body fat explored</h4>
+                
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste nulla nobis dolorum asperiores commodi placeat sequi aliquam. Eos illo dolore rem sapiente ab. [...]</p>
+
+              
+
+              </div>
+            </div>
           </div>
 
 
         </div>
 
-
       </div>
 
-
     </div>
-
-
   </div>
   
 </template>
@@ -36,5 +141,39 @@ name : 'NewsComponent'
 <style lang="scss" scoped>
 .box-news {
   background-color: #373737;
+}
+
+.card {
+  background-color: #212425;
+  margin: 20px;
+}
+h4 {
+    color: white;
+    padding: 20px 50px 0px 45px ;
+  }
+h6 {
+    color: white;
+    padding: 0px 45px;
+}
+p {
+    color: #aeafae;
+    padding: 13px 45px;
+    line-height: 30px;
+ }
+
+.news-1 {
+  height: 450px;
+}
+
+.news-4 {
+  margin: -280px 20px;
+}
+
+.news-5 {
+  margin: -70px 20px;
+}
+
+.news-6 {
+  margin: -170px 20px;
 }
 </style>
