@@ -1,7 +1,7 @@
 <template>
   <div class="box-service container-fluid">
     <div class="d-flex box-card row justify-content-center mx-5 gx-3">
-      <div class="d-flex card-service mx-5">
+      <div class="d-flex card-service mx-5 py-5">
 
 
         <!---CARD 1-->

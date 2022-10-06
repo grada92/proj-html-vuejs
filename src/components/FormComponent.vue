@@ -14,7 +14,7 @@
      
     </div>
 
-    <div class="box-form">
+    <div class="box-form py-5">
         <div class="container-fluid text-center py-5">
 
           <div class="row py-5">
