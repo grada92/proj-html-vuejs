@@ -42,7 +42,9 @@
       </div>
 
     </div>
-    <div class="box-text pt-5">
+
+    <div class="container-fluid box-text">
+      <div class=" pt-5">
       <!--Add Background Image-->
       <div class="box-img">  
         <div class="row">
@@ -61,6 +63,9 @@
       </div>
 
     </div>
+
+    </div>
+    
 
   </div>
 
@@ -89,7 +94,7 @@ name: 'GymComponent'
   padding: 100px 420px; 
   color:white
 }
-.box-img {
+.box-text {
   background-image: url(@/assets/images/home-testimonial-bg.jpg);
   height: 500px;
   background-size: cover;

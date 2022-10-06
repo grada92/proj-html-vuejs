@@ -1,5 +1,23 @@
 <template>
-  <div></div>
+  <div class="box-footer d-flex ">
+    <div class="container-fluid">
+      <div class="row img-footer align-items-center text-center">
+        <div class="col-8 box-text text-center" >
+          <h2>Achieve Your Fitness Goals</h2>
+          <p class="text-white">Flexible membership package to suit all levels of athlete and achive your fitness goals</p>
+        </div>
+
+        <div class="col-3">
+          
+          <button class="btn rounded-0" >JOIN US</button>
+        
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
 </template>
 
 <script>
@@ -8,6 +26,24 @@ name: 'FooterComponent'
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+.box-footer {
+  background-color: #2b2b2b;
+}
 
+.img-footer {
+  background-image: url(@/assets/images/home-parallax.jpg);
+  height: 200px;
+  background-position: 0px -200px;
+}
+
+.btn{
+  color: white;
+  border: 1px solid white;
+}
+
+h2 {
+  margin: 0px 0px 0px -212px;
+  color: white;
+}
 </style>

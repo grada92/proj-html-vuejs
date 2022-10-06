@@ -122,9 +122,12 @@
             </div>
           </div>
 
-
+          
         </div>
-
+        <!---BUTTON ARTICLES-->
+          <div class="col-12 py-5 pt-5">
+            <button class="btn rounded-0 my-5" >READ ALL ARTICLES</button>
+          </div>
       </div>
 
     </div>
@@ -175,5 +178,10 @@ p {
 
 .news-6 {
   margin: -170px 20px;
+}
+
+.btn{
+  color: white;
+  border: 1px solid white;
 }
 </style>
