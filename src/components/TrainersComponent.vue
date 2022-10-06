@@ -22,7 +22,21 @@
 
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eligendi facere consequatur!</p>
 
+              <div class="social-icon d-flex gap-2 px-5 py-3"> <!---Social Icon-->
+                <div class="fb text-white">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </div>
 
+                <div class="tw text-white">
+                  <i class="fa-brands fa-twitter"></i>
+                </div>
+
+                <div class="ig text-white">
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+
+
+              </div>
             </div>
           </div>
 
@@ -31,15 +45,30 @@
         <div class="col-4">
           <div class="card ">
 
-            <img src="@/assets/images/trainer1.jpg" alt="">
+            <img src="@/assets/images/trainer3.jpg" alt="">
 
             <div class="text-area text-start"> <!--Text-Area--->
 
-              <h5>Ann Baker</h5>
+              <h5>Anne Warren</h5>
               <h6>Personal Trainer</h6>
 
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eligendi facere consequatur!</p>
 
+              <div class="social-icon d-flex gap-2 px-5 py-3"> <!---Social Icon-->
+                <div class="fb text-white">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </div>
+
+                <div class="tw text-white">
+                  <i class="fa-brands fa-twitter"></i>
+                </div>
+
+                <div class="ig text-white">
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+
+
+              </div>
 
             </div>
           </div>
@@ -49,16 +78,16 @@
         <div class="col-4">
           <div class="card">
 
-            <img src="@/assets/images/trainer1.jpg" alt="">
+            <img src="@/assets/images/trainer4.jpg" alt="">
 
             <div class="text-area text-start"> <!--Text-Area--->
 
-              <h5>Ann Baker</h5>
+              <h5>Peter Rice</h5>
               <h6>Personal Trainer</h6>
 
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eligendi facere consequatur!</p>
 
-              <div class="social-icon d-flex gap-4 px-5 py-3"> <!---Social Icon-->
+              <div class="social-icon d-flex gap-2 px-5 py-3"> <!---Social Icon-->
                 <div class="fb text-white">
                   <i class="fa-brands fa-facebook-f"></i>
                 </div>
@@ -77,6 +106,10 @@
           </div>
 
 
+        </div>
+
+        <div class="col-12 py-5">
+          <button class="btn rounded-0" >VIEW ALL TRAINERS</button>
         </div>
       </div>
 
@@ -100,23 +133,38 @@ name: 'TrainersComponent'
 
 .card {
   margin: 40px;
-  background-color: hsla(210, 6%, 13%, 1); 
+  background-color:#292a2d; 
   h5 {
     color: white;
-    padding: 50px 0px 0px 40px ;
+    padding: 50px 0px 0px 45px ;
   }
   h6 {
     color: white;
-    padding: 0px 40px;
+    padding: 0px 45px;
   }
   p {
     color: #aeafae;
-    padding: 30px 40px;
+    padding: 30px 45px;
   }
 }
-
+// Social Icon
 .fb {
   background-color:  #212425;
   padding: 5px 12px;
+}
+
+.tw {
+  background-color:  #212425;
+  padding: 5px 9px;
+}
+
+.ig {
+  background-color:  #212425;
+  padding: 5px 11px;
+}
+
+.btn{
+  color: white;
+  border: 1px solid white;
 }
 </style>

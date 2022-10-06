@@ -29,7 +29,7 @@
                     <h1>NO PAIN NO GAIN</h1>
                     <p>Motivation is what gets you started. Habit is what keeps you going.</p>
 
-                    <button class="btn" >JOIN US TODAY</button>
+                    <button class="btn rounded-0" >JOIN US TODAY</button>
 
                 </div>
 
