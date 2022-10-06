@@ -96,7 +96,7 @@ name : 'ReviewsComponent'
 
 <style lang="scss" scoped>
 .box-reviews {
-  background-color: #2e2c2c;
+  background-color: #212425;
   padding: 0px 100px;
 }
 
@@ -106,7 +106,7 @@ h2 {
 
 .card {
   padding: 15px ;
-  background-color: #212425;
+  background-color: rgb(25, 26, 28);
   color: #aeafae;
   font-size: 11px;
   display: flex;

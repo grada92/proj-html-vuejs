@@ -42,9 +42,9 @@
       </div>
 
     </div>
-    <div class="box-text py-5">
+    <div class="box-text pt-5">
       <!--Add Background Image-->
-      <div class="box-img">
+      <div class="box-img">  
         <div class="row">
 
           <div class="col-12 text-center">
@@ -61,7 +61,6 @@
       </div>
 
     </div>
-    
 
   </div>
 
@@ -76,7 +75,7 @@ name: 'GymComponent'
 
 <style lang="scss" scoped>
 .box-gym {
-  background-color: #2e2c2c;
+  background-color: #212425;
   h2 {
     line-height: 50px;
     color: white;
@@ -87,7 +86,7 @@ name: 'GymComponent'
 }
 
 .title {
-  padding: 100px 630px; 
+  padding: 100px 420px; 
   color:white
 }
 .box-img {
