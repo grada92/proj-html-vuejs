@@ -91,7 +91,8 @@ name: 'GymComponent'
 }
 .box-img {
   background-image: url(@/assets/images/home-testimonial-bg.jpg);
-  height: 500px;
+  height: 550px;
   background-size: cover;
+  background-position: 0px -300px;
 }
 </style>
