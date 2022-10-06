@@ -10,16 +10,17 @@
 
         </div>
 
-          
+        
      
     </div>
-
+    
     <div class="box-form py-5">
         <div class="container-fluid text-center py-5">
-
+          
           <div class="row py-5">
-
+            
             <div class="col-6 text-end">
+              
               <img src="@/assets/images/home_img-compressor-400x222.jpg" alt="">
 
             </div>
@@ -64,7 +65,10 @@ name: 'FormComponent'
   color: white;
   padding-top: 10px;
 }
-
+.img-1 {
+  fill: #2e2c2c;
+  margin: -200px 0px 0px 0px;
+}
 .fitness {
   background-color: #2e2c2c;
 }
