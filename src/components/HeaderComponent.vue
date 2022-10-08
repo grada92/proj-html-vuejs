@@ -1,7 +1,7 @@
 <template>
     <div class="box" >
         
-        <div class="d-flex justify-content-between container" >
+        <div class="d-flex container justify-content-between py-2 pb-5" >
 
             <div class="logo-header" >
                 <img src="@/assets/images/gym_logo_1x.png" alt="logo">
@@ -21,7 +21,7 @@
 
             
         </div>
-        <div class="jumbotron" >
+        <div class="jumbotron pt-3" >
             <div class="box2" >
                 <img src="@/assets/images/home-banner.jpg" alt="home-banner">
 
@@ -56,9 +56,9 @@ props : {
 
 <style lang="scss" scoped>
 .container {
-    width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 20px 0px;
+    padding: 50px 150px;
     
 }
 
@@ -82,7 +82,7 @@ a {
     width: 100%;
     position: absolute;
     z-index: -1;
-    top: 0;
+    top: -100px;
     background-size: cover;
 }
 .title {
