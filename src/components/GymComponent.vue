@@ -100,4 +100,9 @@ name: 'GymComponent'
   background-size: cover;
   background-position: 0px -200px;
 }
+
+img:hover {
+  border: 20px solid #252a2b;
+  margin:-20px
+}
 </style>
