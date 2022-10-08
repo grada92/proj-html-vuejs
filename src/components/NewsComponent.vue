@@ -186,6 +186,6 @@ p {
 }
 
 .triangle {
-  margin: -75px 35px 0px 0px;
+  margin: -110px 35px 0px 0px;
 }
 </style>
