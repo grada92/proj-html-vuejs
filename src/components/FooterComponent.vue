@@ -9,7 +9,7 @@
 
         <div class="col-3">
           <!--BUTTON SIGN UP-->
-          <button class="btn rounded-0 ms-4" >JOIN US</button> 
+          <button class="btn rounded-0 me-5" >JOIN US</button> 
         
         </div>
 
