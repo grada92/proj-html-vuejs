@@ -8,6 +8,7 @@
     <TrainersComponent />
     <NewsComponent />
     <FooterComponent />
+    <SecondFooter />
     
   </div>
 </template>
@@ -21,6 +22,7 @@ import GymComponent from './components/GymComponent.vue';
 import TrainersComponent from './components/TrainersComponent.vue';
 import NewsComponent from './components/NewsComponent.vue';
 import FooterComponent from './components/FooterComponent.vue';
+import SecondFooter from './components/SecondFooter.vue';
 
 
 export default {
@@ -33,7 +35,8 @@ export default {
     GymComponent,
     TrainersComponent,
     NewsComponent,
-    FooterComponent
+    FooterComponent,
+    SecondFooter
 },
 data () {
   return {
