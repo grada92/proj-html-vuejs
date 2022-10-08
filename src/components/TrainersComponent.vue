@@ -1,7 +1,7 @@
 <template>
   <div class="trainers py-5">
     <div class="container-md text-center">
-
+      
       <div class="text-white"> <!--Title-Area-->
         <h2>MEET OUR TRAINERS</h2>
         <img src="@/assets/images/divider-xx-red.png" alt="">

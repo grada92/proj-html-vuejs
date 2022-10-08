@@ -1,9 +1,9 @@
 <template>
-  <div class="box-news py-5">
+  <div class="box-news pb-5">
     
-    <div class="container-md py-5 card-area">
-      
-      <div class="text-center text-white py-5">
+    <div class="container-md pb-5 card-area text-center">
+      <div class="text-center text-white pb-5">
+        <img class="triangle" src="@/assets/images/img-content2.png" alt="">
           <h2>PERFORMANCE NEWS</h2> <!--Title--->
           <img src="@/assets/images/divider-xx-red.png" class="pt-3 pb-4" alt="xx-red">
         <div class="row py-5 pt-5">
@@ -183,5 +183,9 @@ p {
 .btn{
   color: white;
   border: 1px solid white;
+}
+
+.triangle {
+  margin: -75px 35px 0px 0px;
 }
 </style>
