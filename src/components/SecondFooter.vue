@@ -2,7 +2,7 @@
 <div class="second-footer pb-2">
     <div class="box-footer">
         <div class="container-md py-5">
-        <div class="row">
+        <div class="row">   <!---INFO ABOUT US--->
             <div class="col-3">
                 <h6 class="py-3">COME FIND US</h6>
                 <p>12345 North Main Street</p>
@@ -12,7 +12,7 @@
 
             </div>
 
-            <div class="col-3">
+            <div class="col-3">     <!--ARTICLES-->
                 <h6 class="py-3">RECENT POSTS</h6>
                 <p class="me-5">&#x276F; Train with free weights or your body weight?</p>
                 <hr class="me-5">
@@ -22,7 +22,7 @@
 
             </div>
 
-            <div class="col-3">
+            <div class="col-3">    <!---OPENING TIMES-->
                 <h6 class="py-3">OPENING TIMES</h6>
                 <p>Weekdays Monday-Friday</p>
                 <p>09:00 - 19:00</p>
@@ -41,7 +41,7 @@
 
 
     </div>
-    
+    <!---LINK FOOTER-->
     <div class="box-second-footer container-md py-4">
         <div class="row">
             <div class="col-8">
@@ -73,7 +73,7 @@
 
 
         </div>
-        <div class="container-fluid">
+        <div class="container-fluid"> <!--END BUTTON-->
             <div class="row me-5">
             <div class="col-12 text-end me-5">
                 <button> <i class="fa-solid fa-angle-up"></i></button>
@@ -114,6 +114,8 @@ span {
     color:#aeafae;
     padding-right: 20px;
 }
+// SOCIAL ICON
+
 .social-footer {
     margin-left: 210px;
 }
@@ -131,7 +133,7 @@ span {
   background-color:  #d3615e;
   padding: 5px 11px;
 }
-button {
+button { //END BUTTON
     background-color: #2e3539;
     color: white;
     padding: 3px 14px;
