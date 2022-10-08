@@ -8,8 +8,8 @@
         </div>
 
         <div class="col-3">
-          
-          <button class="btn rounded-0" >JOIN US</button>
+          <!--BUTTON SIGN UP-->
+          <button class="btn rounded-0 ms-4" >JOIN US</button> 
         
         </div>
 
@@ -43,9 +43,11 @@ name: 'FooterComponent'
   color: white;
   border: 1px solid white;
 }
-
+p {
+  margin: 0px 0px 0px -55px;
+}
 h2 {
-  margin: 0px 0px 0px -212px;
+  margin: 0px 0px 0px -270px;
   color: white;
 }
 </style>
