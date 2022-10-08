@@ -69,7 +69,7 @@ name: 'FormComponent'
 }
 .triangle {
   fill: #2e2c2c;
-  margin: -190px -10px 0px 0px;
+  margin: -190px 0px 0px 0px;
 }
 .fitness {
   background-color: #2e2c2c;
