@@ -150,4 +150,8 @@ button { //END BUTTON
     border-radius: 3px;
 }
 
+a:hover {
+    color: #d3615e;
+}
+
 </style>
