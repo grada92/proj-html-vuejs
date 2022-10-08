@@ -143,7 +143,7 @@ name : 'NewsComponent'
 
 <style lang="scss" scoped>
 .box-news {
-  background-color: #373737;
+  background-color: #252a2d;
 }
 
 .card {
