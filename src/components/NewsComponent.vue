@@ -260,7 +260,7 @@ p {
   img {
     opacity: 0.1;
     background-color: red;
-    transition: 1.5s;
+    transition: 2s ease;
   }
 }
 </style>
