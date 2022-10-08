@@ -88,7 +88,7 @@
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eligendi facere consequatur!</p>
 
               <div class="social-icon d-flex gap-2 px-5 py-3"> <!---Social Icon-->
-                <div class="fb text-white">
+                <div class="fb text-white"> 
                   <i class="fa-brands fa-facebook-f"></i>
                 </div>
 
@@ -108,7 +108,7 @@
 
         </div>
 
-        <div class="col-12 py-5">
+        <div class="col-12 py-5"> <!--BUTTON ALL TRAINERS-->
           <button class="btn rounded-0" >VIEW ALL TRAINERS</button>
         </div>
       </div>
@@ -177,10 +177,13 @@ name: 'TrainersComponent'
   border: 1px solid white;
   
 }
-
-img:hover {
+// HOVER EFFECTS
+.card:hover { 
+  img {
   border-bottom: 20px solid #212425;;
   margin-bottom: -20px;
   cursor: pointer;
 }
+}
+
 </style>
