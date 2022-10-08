@@ -44,10 +44,10 @@ name: 'FooterComponent'
   border: 1px solid white;
 }
 p {
-  margin: 0px 0px 0px -55px;
+  margin: 0px 0px 0px -25px;
 }
 h2 {
-  margin: 0px 0px 0px -270px;
+  margin: 0px 0px 0px -240px;
   color: white;
 }
 </style>
