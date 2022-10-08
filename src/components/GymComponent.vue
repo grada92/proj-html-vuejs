@@ -103,6 +103,7 @@ name: 'GymComponent'
 
 img:hover {
   border: 20px solid #252a2b;
-  margin:-20px
+  margin:-20px;
+  cursor: pointer;
 }
 </style>

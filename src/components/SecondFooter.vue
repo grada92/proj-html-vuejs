@@ -122,16 +122,25 @@ span {
 .fb {
   background-color:  #d3615e;
   padding: 5px 12px;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .tw {
   background-color:  #d3615e;
   padding: 5px 9px;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .ig {
   background-color:  #d3615e;
   padding: 5px 11px;
+  &:hover {
+    cursor: pointer;
+  }
 }
 button { //END BUTTON
     background-color: #2e3539;

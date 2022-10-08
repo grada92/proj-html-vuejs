@@ -151,20 +151,36 @@ name: 'TrainersComponent'
 .fb {
   background-color:  #212425;
   padding: 5px 12px;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .tw {
   background-color:  #212425;
   padding: 5px 9px;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .ig {
   background-color:  #212425;
   padding: 5px 11px;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .btn{
   color: white;
   border: 1px solid white;
+  
+}
+
+img:hover {
+  border-bottom: 20px solid #212425;;
+  margin-bottom: -20px;
+  cursor: pointer;
 }
 </style>
