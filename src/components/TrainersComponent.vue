@@ -180,7 +180,7 @@ name: 'TrainersComponent'
 // HOVER EFFECTS
 .card:hover { 
   img {
-  border-bottom: 20px solid #212425;;
+  border-bottom: 20px solid #313334;;
   margin-bottom: -20px;
   cursor: pointer;
 }
