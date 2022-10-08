@@ -1,7 +1,7 @@
 <template>
-    <div class="box" >
+    <div class="box pb-4" >
         
-        <div class="d-flex container justify-content-between py-2 pb-5" >
+        <div class="d-flex box-navbar justify-content-between py-2 pb-5" >
 
             <div class="logo-header" >
                 <img src="@/assets/images/gym_logo_1x.png" alt="logo">
@@ -55,7 +55,7 @@ props : {
 </script>
 
 <style lang="scss" scoped>
-.container {
+.box-navbar{
     max-width: 100%;
     margin: 0 auto;
     padding: 50px 150px;
@@ -82,8 +82,7 @@ a {
     width: 100%;
     position: absolute;
     z-index: -1;
-    top: -100px;
-    background-size: cover;
+    top: -80px;
 }
 .title {
     color:white ;
