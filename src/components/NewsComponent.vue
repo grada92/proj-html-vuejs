@@ -12,7 +12,10 @@
             <div class="card news-1">
 
               <img src="@/assets/images/blog1.jpg" alt="blog1">
-            
+                <div class="icon-hover d-flex justify-content-center gap-4">
+                  <i class="fs-4 text-white fa-solid fa-link"></i>
+                  <i class="fs-4 fa-solid fa-magnifying-glass"></i>
+                </div>
               <div class="text-area text-start"> <!--Text-Area--->
 
                 <h4>Train with free weights or your body weight?</h4>
@@ -30,6 +33,10 @@
             <div class="card news-2">
 
               <img src="@/assets/images/blog6.jpg" alt="blog6">
+                <div class="icon-hover2 d-flex justify-content-center gap-4">
+                    <i class="fs-4 text-white fa-solid fa-link"></i>
+                    <i class="fs-4 fa-solid fa-magnifying-glass"></i>
+                  </div>
 
               <div class="text-area text-start"> <!--Text-Area--->
 
@@ -45,6 +52,10 @@
             <div class="card ">
 
               <img src="@/assets/images/trainer4.jpg" alt="trainer4">
+              <div class="icon-hover3 d-flex justify-content-center gap-4">
+                  <i class="fs-4 text-white fa-solid fa-link"></i>
+                  <i class="fs-4 fa-solid fa-magnifying-glass"></i>
+                </div>
 
               <div class="text-area text-start"> <!--Text-Area--->
 
@@ -68,6 +79,10 @@
             <div class="card news-4">
 
               <img src="@/assets/images/blog4.jpg" alt="blog4">
+              <div class="icon-hover3 d-flex justify-content-center gap-4">
+                  <i class="fs-4 text-white fa-solid fa-link"></i>
+                  <i class="fs-4 fa-solid fa-magnifying-glass"></i>
+                </div>
             
               <div class="text-area text-start"> <!--Text-Area--->
 
@@ -86,6 +101,10 @@
             <div class="card news-5">
 
               <img src="@/assets/images/trainer3.jpg" alt="trainer3">
+              <div class="icon-hover3 d-flex justify-content-center gap-4">
+                  <i class="fs-4 text-white fa-solid fa-link"></i>
+                  <i class="fs-4 fa-solid fa-magnifying-glass"></i>
+                </div>
 
               <div class="text-area text-start"> <!--Text-Area--->
 
@@ -108,6 +127,10 @@
             <div class="card news-6">
 
               <img src="@/assets/images/trainer1.jpg" alt="trainer1">
+              <div class="icon-hover3 d-flex justify-content-center gap-4">
+                  <i class="fs-4 text-white fa-solid fa-link"></i>
+                  <i class="fs-4 fa-solid fa-magnifying-glass"></i>
+                </div>
 
               <div class="text-area text-start"> <!--Text-Area--->
 
@@ -149,6 +172,8 @@ name : 'NewsComponent'
 .card {
   background-color: #212425;
   margin: 20px;
+  position: relative;
+
 }
 h4 {
     color: white;
@@ -187,5 +212,40 @@ p {
 
 .triangle {
   margin: -110px 35px 0px 0px;
+}
+
+.icon-hover {
+  position: absolute;
+  z-index: 2;
+  top:100px;
+  left: 150px;
+  opacity: 0;
+}
+
+.icon-hover2 {
+  position: absolute;
+  z-index: 2;
+  top:170px;
+  left: 150px;
+  opacity: 0;
+}
+
+.icon-hover3 {
+  position: absolute;
+  z-index: 2;
+  top:130px;
+  left: 150px;
+  opacity: 0;
+}
+
+.card:hover {
+  cursor: pointer;
+  .icon-hover,.icon-hover2, .icon-hover3{
+    opacity: 0.9;
+  }
+  img {
+    opacity: 0.1;
+    background: red;
+  }
 }
 </style>
