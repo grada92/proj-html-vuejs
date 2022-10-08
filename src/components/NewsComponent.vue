@@ -9,9 +9,11 @@
         <div class="row py-5 pt-5">
           <!---Card 1-->
           <div class="col-4">
-            <div class="card news-1">
-
-              <img src="@/assets/images/blog1.jpg" alt="blog1">
+            <div class="box-card news-1">
+              <div class="card box-red rounded-0">
+                <img src="@/assets/images/blog1.jpg" alt="blog1">
+              </div>
+              
                 <div class="icon-hover d-flex justify-content-center gap-4">
                   <i class="fs-4 text-white fa-solid fa-link"></i>
                   <i class="fs-4 fa-solid fa-magnifying-glass"></i>
@@ -30,9 +32,11 @@
           </div>
           <!---Card 2-->
           <div class="col-4">
-            <div class="card news-2">
-
-              <img src="@/assets/images/blog6.jpg" alt="blog6">
+            <div class="box-card news-2">
+              <div class="card box-red rounded-0">
+                <img src="@/assets/images/blog6.jpg" alt="blog6">
+              </div>
+              
                 <div class="icon-hover2 d-flex justify-content-center gap-4">
                     <i class="fs-4 text-white fa-solid fa-link"></i>
                     <i class="fs-4 fa-solid fa-magnifying-glass"></i>
@@ -49,9 +53,11 @@
           </div>
           <!---Card 3-->
           <div class="col-4">
-            <div class="card ">
-
-              <img src="@/assets/images/trainer4.jpg" alt="trainer4">
+            <div class="box-card ">
+              <div class="card box-red rounded-0">
+                <img src="@/assets/images/trainer4.jpg" alt="trainer4">
+              </div>
+              
               <div class="icon-hover3 d-flex justify-content-center gap-4">
                   <i class="fs-4 text-white fa-solid fa-link"></i>
                   <i class="fs-4 fa-solid fa-magnifying-glass"></i>
@@ -76,9 +82,11 @@
         <div class="row py-5">
           <!---Card 4---->
           <div class="col-4">
-            <div class="card news-4">
-
-              <img src="@/assets/images/blog4.jpg" alt="blog4">
+            <div class="box-card news-4">
+              <div class="card box-red rounded-0">
+                <img src="@/assets/images/blog4.jpg" alt="blog4">
+              </div>
+              
               <div class="icon-hover3 d-flex justify-content-center gap-4">
                   <i class="fs-4 text-white fa-solid fa-link"></i>
                   <i class="fs-4 fa-solid fa-magnifying-glass"></i>
@@ -98,9 +106,10 @@
           </div>
           <!---Card 5----->
           <div class="col-4">
-            <div class="card news-5">
-
-              <img src="@/assets/images/trainer3.jpg" alt="trainer3">
+            <div class="box-card news-5">
+              <div class="card box-red rounded-0">
+                <img src="@/assets/images/trainer3.jpg" alt="trainer3">
+              </div>
               <div class="icon-hover3 d-flex justify-content-center gap-4">
                   <i class="fs-4 text-white fa-solid fa-link"></i>
                   <i class="fs-4 fa-solid fa-magnifying-glass"></i>
@@ -124,9 +133,11 @@
           </div>
           <!---Card 6---->
           <div class="col-4">
-            <div class="card news-6">
-
-              <img src="@/assets/images/trainer1.jpg" alt="trainer1">
+            <div class="box-card news-6">
+              <div class="card box-red rounded-0">
+                <img src="@/assets/images/trainer1.jpg" alt="trainer1">
+              </div>
+            
               <div class="icon-hover3 d-flex justify-content-center gap-4">
                   <i class="fs-4 text-white fa-solid fa-link"></i>
                   <i class="fs-4 fa-solid fa-magnifying-glass"></i>
@@ -169,10 +180,10 @@ name : 'NewsComponent'
   background-color: #252a2d;
 }
 
-.card {
+.box-card {
   background-color: #212425;
-  margin: 20px;
   position: relative;
+  margin: 20px;
 
 }
 h4 {
@@ -217,7 +228,7 @@ p {
 .icon-hover {
   position: absolute;
   z-index: 2;
-  top:100px;
+  top:90px;
   left: 150px;
   opacity: 0;
 }
@@ -225,11 +236,14 @@ p {
 .icon-hover2 {
   position: absolute;
   z-index: 2;
-  top:170px;
+  top:180px;
   left: 150px;
   opacity: 0;
 }
-
+.box-red {
+  background: red;
+  border: none;
+}
 .icon-hover3 {
   position: absolute;
   z-index: 2;
@@ -238,14 +252,15 @@ p {
   opacity: 0;
 }
 
-.card:hover {
+.box-card:hover {
   cursor: pointer;
   .icon-hover,.icon-hover2, .icon-hover3{
-    opacity: 0.9;
+    opacity: 0.7;
   }
   img {
     opacity: 0.1;
-    background: red;
+    background-color: red;
+    transition: 1.5s;
   }
 }
 </style>
