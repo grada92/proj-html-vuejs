@@ -91,7 +91,7 @@ name: 'GymComponent'
 }
 
 .title {
-  padding: 100px 420px; 
+  padding: 100px 660px; 
   color:white
 }
 .box-text {
