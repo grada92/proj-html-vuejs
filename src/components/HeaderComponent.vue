@@ -22,14 +22,14 @@
             
         </div>
         <div class="jumbotron pt-3" >
-            <div class="box2" >
-                <img src="@/assets/images/home-banner.jpg" alt="home-banner">
+            <div class="box2 pt-5" >
+                <img class="pt-3" src="@/assets/images/home-banner.jpg" alt="home-banner">
 
-                    <div class="text-center title my-5" >
-                    <h1>NO PAIN NO GAIN</h1>
+                    <div class="text-center title pt-5" >
+                    <h1 class="py-1">NO PAIN NO GAIN</h1>
                     <p>Motivation is what gets you started. Habit is what keeps you going.</p>
 
-                    <button class="btn rounded-0" >JOIN US TODAY</button>
+                    <button class="btn rounded-0 px-3" >JOIN US TODAY</button>
 
                 </div>
 
@@ -59,7 +59,6 @@ props : {
     max-width: 100%;
     margin: 0 auto;
     padding: 50px 150px;
-    
 }
 
 .logo-header img {
@@ -67,6 +66,7 @@ props : {
 }
 
 a {
+    font-size:16px;
     text-decoration: none;
     color: white;
     &:hover {
@@ -82,19 +82,22 @@ a {
     width: 100%;
     position: absolute;
     z-index: -1;
-    top: -80px;
+    top: -50px;
 }
 .title {
     color:white ;
     position: relative;
     top: 90px;
 }
+p {
+    color: #aeafae;
+}
 h1 {
     font-size:80px
 }
 .btn {
-    color: white;
-    border: 1px solid white;
+    color: #aeafae;
+    border: 1px solid #aeafae;
 }
 
 </style>

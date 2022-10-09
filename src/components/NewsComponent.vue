@@ -222,7 +222,7 @@ p {
 }
 
 .triangle {
-  margin: -298px 11px 0px 0px;
+  margin: -54px -20px 0px 0px;
 }
 
 .icon-hover {

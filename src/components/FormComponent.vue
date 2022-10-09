@@ -23,13 +23,13 @@
             </div>
             <div class="col-6 text-end pb-5">
               
-              <img class="img-form" src="@/assets/images/home_img-compressor-400x222.jpg" alt="">
+              <img class="img-form pb-5" src="@/assets/images/home_img-compressor-400x222.jpg" alt="">
 
             </div>
 
             <div class="col-6 text-start pb-5">
 
-              <h5 class="pb-2 fs-4">Sign Up For a Free Training Session!</h5>
+              <h5 class="pb- fs-4">Sign Up For a Free Training Session!</h5>
               <p>Name:</p>
               <input class="mb-3" type="text" placeholder="name">
               <p>Email:</p>
@@ -69,15 +69,16 @@ name: 'FormComponent'
 }
 .triangle {
   fill: #2e2c2c;
-  margin: -190px 0px 0px 0px;
+  margin: -55px -20px 0px 0px;
 }
 .fitness {
-  background-color: #2e2c2c;
-  height: 300px;
+  background-color: #25292b;
+  height: 370px;
+  padding: 0px 540px;
 }
 
 .box-form {
-  background-color: hsla(0, 0%, 12%, 1);
+  background-color: #232627;
 }
 
 input {
