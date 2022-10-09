@@ -8,7 +8,7 @@
         
       </div>
 
-      <div class="row d-flex pt-5">
+      <div class="row d-flex pt-5 pb-5">
         <!---Card 1-->
         <div class="col-4">
           <div class="card">
@@ -107,7 +107,7 @@
 
 
         </div>
-
+        
         <div class="col-12 py-5"> <!--BUTTON ALL TRAINERS-->
           <button class="btn rounded-0" >VIEW ALL TRAINERS</button>
         </div>
@@ -175,14 +175,13 @@ name: 'TrainersComponent'
 .btn{
   color: white;
   border: 1px solid white;
-  
 }
 // HOVER EFFECTS
 .card:hover { 
+  cursor: pointer;
   img {
   border-bottom: 20px solid #313334;;
   margin-bottom: -20px;
-  cursor: pointer;
 }
 }
 

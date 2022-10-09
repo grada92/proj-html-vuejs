@@ -1,23 +1,23 @@
 <template>
-  <div class="box-gym py-5">
+  <div class="box-gym py-5"> 
     <div class="container-md py-5 text-center">
-      <h2>HIGH PERFORMANCE FACILITIES</h2>
+      <h2>HIGH PERFORMANCE FACILITIES</h2> <!--MAIN TITLE-->
 
       <img src="@/assets/images/divider-xx-red.png" alt="divider-xx">
 
       <div class="row pt-5">
         <div class="col-4"> <!--Card 1-->
-          <img src="@/assets/images/home-image1.jpg" alt="image1">
+          <img class="card-effect" src="@/assets/images/home-image1.jpg" alt="image1">
 
         </div>
 
         <div class="col-4"> <!--Card 2-->
-          <img src="@/assets/images/home-image2.jpg" alt="image2">
+          <img class="card-effect" src="@/assets/images/home-image2.jpg" alt="image2">
 
         </div>
 
         <div class="col-4"> <!--Card 3-->
-          <img src="@/assets/images/home-image3.jpg" alt="image3">
+          <img class="card-effect" src="@/assets/images/home-image3.jpg" alt="image3">
 
         </div>
 
@@ -25,17 +25,17 @@
 
       <div class="row py-5">
         <div class="col-4"> <!--Card 4-->
-          <img src="@/assets/images/home-image4.jpg" alt="image4">
+          <img class="card-effect" src="@/assets/images/home-image4.jpg" alt="image4">
 
         </div>
 
         <div class="col-4"> <!--Card 5-->
-          <img src="@/assets/images/home-image54.jpg" alt="image5">
+          <img class="card-effect" src="@/assets/images/home-image54.jpg" alt="image5">
 
         </div>
 
         <div class="col-4"> <!--Card 6-->
-          <img src="@/assets/images/home-image6.jpg" alt="image6">
+          <img class="card-effect" src="@/assets/images/home-image6.jpg" alt="image6">
 
         </div>
 
@@ -100,8 +100,8 @@ name: 'GymComponent'
   background-size: cover;
   background-position: 0px -200px;
 }
-
-img:hover {
+// CARD EFFECTS HOVER
+.card-effect:hover {
   border: 20px solid #252a2b;
   margin:-20px;
   cursor: pointer;

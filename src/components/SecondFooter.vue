@@ -14,9 +14,9 @@
 
             <div class="col-3">     <!--ARTICLES-->
                 <h6 class="py-3">RECENT POSTS</h6>
-                <p class="me-5">&#x276F; Train with free weights or your body weight?</p>
+                <a class="me-5 fs-6" href="#">&#x276F; Train with free weights or your body weight?</a> <!--LINK POST 1-->
                 <hr class="me-5">
-                <p class="me-5">&#x276F; Nutritional advice that will keep you training</p>
+                <a class="me-5 fs-6" href="#">&#x276F; Nutritional advice that will keep you training</a> <!--LINK POST 2-->
                 <hr class="me-5">
                 
 
