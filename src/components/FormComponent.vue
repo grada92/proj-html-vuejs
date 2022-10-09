@@ -96,6 +96,6 @@ input {
   color:white;
 }
 .second-text {
-  color: #6b6b6b;
+  color: #aeafae;
 }
 </style>
