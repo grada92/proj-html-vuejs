@@ -23,7 +23,7 @@
 
       </div>
 
-      <div class="row py-5">
+      <div class="row py-5 mb-5">
         <div class="col-4"> <!--Card 4-->
           <img class="card-effect" src="@/assets/images/home-image4.jpg" alt="image4">
 

@@ -112,7 +112,7 @@ h2 {
   display: flex;
   flex-direction: row;
   margin: 10px;
-  width: 400px;
+  width: 550px;
   p {
     margin: 10px;
     line-height: 20px;

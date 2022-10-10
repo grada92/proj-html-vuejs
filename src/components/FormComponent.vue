@@ -31,7 +31,7 @@
 
               <h5 class="pb- fs-4">Sign Up For a Free Training Session!</h5>
               <p>Name:</p>
-              <input class="mb-3" type="text" placeholder="name">
+              <input class="mb-3" type="text" placeholder="Name">
               <p>Email:</p>
               <input type="text" placeholder="Email">
               <div class="py-4 pt-5">
