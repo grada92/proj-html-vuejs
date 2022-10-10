@@ -1,9 +1,9 @@
 <template>
 <div>
-  <div class="box2 pt-3">
+  <div class="box2">
 
     <div class="text-center fitness py-5">
-      <h2 class="py-3" >WORLD CLASS Fitness</h2>
+      <h2 class="py-5" >WORLD CLASS Fitness</h2>
         <img src="@/assets/images/divider-xx-red.png" alt="img">
         <div class="text-center col-12">
             <p class="mx-5 py-4 second-text">At Avada Gym, everything we do from top to bottom is of the highest quality to ensure we're equipped to hel you reach your goals of a healthy and fit lifestyles</p>

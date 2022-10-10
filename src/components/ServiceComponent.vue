@@ -79,15 +79,14 @@ name: 'ServiceComponent'
 }
 .card {
   color:white;
-  margin: 70px;
   gap:20px;
   padding: 15px;
   color: none;
-  margin: 0px 20px;
+  margin: 0px 50px;
 }
 
 p {
-  font-size: 12px;
+  font-size: 16px;
   color: #6b6b6b;
 }
 

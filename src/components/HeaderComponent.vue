@@ -21,15 +21,15 @@
 
             
         </div>
-        <div class="jumbotron pt-2" >
+        <div class="jumbotron pt-3" >
             <div class="box2 pt-5" > <!---BACKGROUND IMG HOME-->
-                <img class="pt-2" src="@/assets/images/home-banner.jpg" alt="home-banner">
+                <img class="pt-4" src="@/assets/images/home-banner.jpg" alt="home-banner">
 
                     <div class="text-center title pt-5" >
-                    <h1 class="pt-3">NO PAIN NO GAIN</h1> <!---MAIN TITLE--->
-                    <p>Motivation is what gets you started. Habit is what keeps you going.</p>
+                    <h1 class="pt-3 pb-2">NO PAIN NO GAIN</h1> <!---MAIN TITLE--->
+                    <p class="pb-2">Motivation is what gets you started. Habit is what keeps you going.</p>
 
-                    <button class="btn rounded-0 px-3" >JOIN US TODAY</button>
+                    <button class="btn rounded-0 px-4 py-2" >JOIN US TODAY</button>
 
                 </div>
 
@@ -61,10 +61,11 @@ props : {
     padding: 50px 150px;
 }
 .box {
-    height: 550px;
+    height: 720px;
+
 }
 .logo-header img {
-    width: 80%;
+    width: 90%;
 }
 
 a {
